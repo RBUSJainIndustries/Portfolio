@@ -157,8 +157,8 @@ st.markdown("""
   </div>
 
   <div class="product-card">
-    <img src="Square Perforated Sheet.png" alt="Square Hole Perforated Sheet">
     <h4>Square Hole Perforated Sheet</h4>
+    <img src="Square Perforated Sheet.png" alt="Square Hole Perforated Sheet">
     <p>
     <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
     <b>Hole Size:</b> 5, 8, 10, 12 & 25 mm<br>
@@ -168,8 +168,8 @@ st.markdown("""
   </div>
 
   <div class="product-card">
-    <img src="Oblong Perforated Sheet.jfif" alt="Oblong Hole Perforated Sheet">
     <h4>Oblong Hole Perforated Sheet</h4>
+    <img src="Oblong Perforated Sheet.jfif" alt="Oblong Hole Perforated Sheet">
     <p>
     <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
     <b>Hole Size:</b> 0.45 x 5 mm<br>
@@ -179,8 +179,8 @@ st.markdown("""
   </div>
 
   <div class="product-card">
-    <img src="Triangle Perforated Sheet.png" alt="Triangle Hole or Custom Shape">
     <h4>Triangle Hole Perforated Sheet</h4>
+    <img src="Triangle Perforated Sheet.png" alt="Triangle Hole or Custom Shape">
     <p>
     <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
     <b>Hole Size:</b> 3 mm<br>
