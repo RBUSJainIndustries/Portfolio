@@ -104,15 +104,13 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown("<hr>", unsafe_allow_html=True)
-
 # Product Range
 st.markdown("### 🛠️ Product Range")
 
 with st.expander("🔘 Round Hole Sheets"):
     st.image("Round Perforated Sheet.png", caption="Round Hole Perforated Sheet", width=300)
     st.write("""
-- **Materials**: SS (202/304), Galvanized, CR, Copper & Brass  
+- **Materials**: S.S. (202/304), Galvanized, CR, Copper & Brass  
 - **Hole Size**: 0.5 – 25 mm  
 - **Width**: 12 – 60 inches  
 - **Thickness**: 10g – 36 gauge  
@@ -121,25 +119,31 @@ with st.expander("🔘 Round Hole Sheets"):
 with st.expander("◻️ Square Hole Sheets"):
     st.image("Square Perforated Sheet.png", caption="Square Hole Perforated Sheet", width=300)
     st.write("""
-- **Hole Size**: 0.45 x 5 mm  
-- **Width**: 12 – 50 inches  
-- **Thickness**: 22g – 24g  
+- **Materials**: S.S. (202/304), Galvanized, CR, Copper & Brass
+- **Hole Size**: 5, 8, 10, 12 & 25 mm  
+- **Width**: 12 – 48 inches  
+- **Thickness**: 16g – 26 gauge
 """)
 
 with st.expander("⭘ Oblong Hole Sheets"):
     st.image("Oblong Perforated Sheet.jfif", caption="Oblong Hole Perforated Sheet", width=300)
     st.write("""
-- **Hole Size**: 3 mm  
-- **Width**: 36 – 48 inches  
-- **Thickness**: 20g – 22g  
+- **Materials**: S.S. (202/304), Galvanized, CR, Copper & Brass  
+- **Hole Size**: 0.45 x 5 mm  
+- **Width**: 12 – 50 inches  
+- **Thickness**: 22 & 24 gauge  
 """)
 
 with st.expander("🔺 Triangle Hole & Other Custom Shapes"):
     st.image("Triangle Perforated Sheet.png", caption="Triangle Hole or Custom Shape",width=300)
-    st.write("Available on request for industrial and architectural needs.")
+    st.write("""
+- **Materials**: S.S. (202/304), Galvanized, CR, Copper & Brass  
+- **Hole Size**: 3 mm  
+- **Width**: 36 & 48 inches  
+- **Thickness**: 20 & 22 gauge  
+""")
 
 st.markdown("<hr>", unsafe_allow_html=True)
-
 
 # Applications
 st.markdown("### 🧩 Applications")
