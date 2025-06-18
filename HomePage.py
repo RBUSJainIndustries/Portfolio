@@ -48,7 +48,7 @@ st.markdown("""
 # Google Form Embed
 st.markdown("---")
 st.markdown("### 📋 Fill Out Product Inquiry Form")
-st.components.v1.iframe("https://docs.google.com/forms/d/e/1FAIpQLSf7MZMWpNcfrOqE_WXYHVkL8PMWeHoP6S5O9vftKIdNOmqtUw/viewform?embedded=true", height=700)
+st.components.v1.iframe("https://forms.gle/frUcJBESz841e5Vq9", height=700)
 
 # Footer
 st.markdown("---")
