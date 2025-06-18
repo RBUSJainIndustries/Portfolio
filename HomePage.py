@@ -235,7 +235,7 @@ We are engaged in offering a comprehensive range of Steel Perforated Sheets, and
     """)
 
 with col2:
-    st.image("perforated-sheet-applications.jpg", use_column_width=True)
+    st.image("Applications.png", use_column_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 # Packaging & Quality
