@@ -6,7 +6,7 @@ def get_base64_of_local_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-img_base64 = get_base64_of_local_image("about_bg.jpg")
+img_base64 = get_base64_of_local_image("about_bg.JPG")
 # Page configuration
 st.set_page_config(page_title="R. B. Umrao Singh Jain Industries", layout="wide")
 
