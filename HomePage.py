@@ -143,7 +143,7 @@ cols = st.columns(2)
 
 # Product 1
 with cols[0]:
-    st.image("Round Perforated Sheet.png", use_column_width=True)
+    st.image("Round Perforated Sheet.png", width=300)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">🔘 Round Hole Perforated Sheet</div>
@@ -158,7 +158,7 @@ with cols[0]:
 
 # Product 2
 with cols[1]:
-    st.image("Square Perforated Sheet.png", use_column_width=True)
+    st.image("Square Perforated Sheet.png", width=300)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">◻️ Square Hole Perforated Sheet</div>
@@ -175,8 +175,8 @@ with cols[1]:
 cols = st.columns(2)
 
 # Product 3
-with cols[0]:
-    st.image("Oblong Perforated Sheet.jfif", use_column_width=True)
+with cols[2]:
+    st.image("Oblong Perforated Sheet.jfif", width=300)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">⭘ Oblong Hole Perforated Sheet</div>
@@ -190,8 +190,8 @@ with cols[0]:
     """, unsafe_allow_html=True)
 
 # Product 4
-with cols[1]:
-    st.image("Triangle Perforated Sheet.png", use_column_width=True)
+with cols[3]:
+    st.image("Triangle Perforated Sheet.png" , width=300)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">🔺 Triangle Hole Perforated Sheet</div>
