@@ -257,10 +257,10 @@ with col1:
     st.image("Packing1.JPG", caption="Precision Packaging", use_container_width=True)
 
 with col2:
-    st.image("Packing2.jpg", caption="Quality Inspection", use_container_width =True)
+    st.image("Packing2.jpg", caption="Ready for Dispatch", use_container_width =True)
 
 with col3:
-    st.image("Packing3.JPG", caption="Ready for Dispatch", use_container_width =True)
+    st.image("Packing3.JPG", caption="Quality Inspection", use_container_width =True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
