@@ -94,6 +94,7 @@ st.markdown(f"""
 
 st.markdown("### 🏢 About Us")
 st.markdown(f"""
+<h1>🏢 About Us</h1>
 <div class="about-us">
     <div class="about-us-content">
         Established in the year 1992, we “R. B. Umrao Singh Jain Industries,” based at Rewari, Haryana, India, are engaged in offering a wide range of Perforated Metal Sheets - S.S. vacuum filter screen, centrifugal filter screen for sugar industries, supporting liner (Dovex Type) for centrifugal machine and Rice Polishing Jali.
