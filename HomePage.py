@@ -84,7 +84,7 @@ with st.expander("🔘 Round Hole Sheets"):
 """)
 
 with st.expander("◻️ Square Hole Sheets"):
-    st.image("Square Perfoarted Sheet.png", caption="Square Hole Perforated Sheet", use_column_width=True)
+    st.image("Square Perforated Sheet.png", caption="Square Hole Perforated Sheet", use_column_width=True)
     st.write("""
 - **Hole Size**: 0.45 x 5 mm  
 - **Width**: 12 – 50 inches  
