@@ -146,7 +146,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Contact Info
-st.markdown("### 📞 Contact Us")
 st.markdown(f"""
 <div class="contact-box">
     📍 Uttam Nagar, Delhi Road, Rewari - 123401, Haryana, India<br>
