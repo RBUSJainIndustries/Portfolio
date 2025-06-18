@@ -103,45 +103,97 @@ st.markdown(f"""
     </div>
 </div>
 """, unsafe_allow_html=True)
-
-# Product Range
+# Product Range Section
 st.markdown("### 🛠️ Product Range")
 
-with st.expander("🔘 Round Hole Sheets"):
-    st.image("Round Perforated Sheet.png", caption="Round Hole Perforated Sheet", width=300)
-    st.write("""
-- **Materials**: S.S. (202/304), Galvanized, CR, Copper & Brass  
-- **Hole Size**: 0.5 – 25 mm  
-- **Width**: 12 – 60 inches  
-- **Thickness**: 10g – 36 gauge  
-""")
+# CSS Styling for responsive cards
+st.markdown("""
+    <style>
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .product-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+    .product-card:hover {
+        transform: scale(1.03);
+    }
+    .product-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .product-card h4 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: #6b3a51;
+    }
+    .product-card p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
-with st.expander("◻️ Square Hole Sheets"):
-    st.image("Square Perforated Sheet.png", caption="Square Hole Perforated Sheet", width=300)
-    st.write("""
-- **Materials**: S.S. (202/304), Galvanized, CR, Copper & Brass
-- **Hole Size**: 5, 8, 10, 12 & 25 mm  
-- **Width**: 12 – 48 inches  
-- **Thickness**: 16g – 26 gauge
-""")
+# HTML Product Cards
+st.markdown("""
+<div class="product-grid">
 
-with st.expander("⭘ Oblong Hole Sheets"):
-    st.image("Oblong Perforated Sheet.jfif", caption="Oblong Hole Perforated Sheet", width=300)
-    st.write("""
-- **Materials**: S.S. (202/304), Galvanized, CR, Copper & Brass  
-- **Hole Size**: 0.45 x 5 mm  
-- **Width**: 12 – 50 inches  
-- **Thickness**: 22 & 24 gauge  
-""")
+    <div class="product-card">
+        <img src="Round Perforated Sheet.png" alt="Round Hole Perforated Sheet">
+        <h4>🔘 Round Hole Sheets</h4>
+        <p>
+        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+        <b>Hole Size:</b> 0.5 – 25 mm<br>
+        <b>Width:</b> 12 – 60 inches<br>
+        <b>Thickness:</b> 10g – 36 gauge
+        </p>
+    </div>
 
-with st.expander("🔺 Triangle Hole & Other Custom Shapes"):
-    st.image("Triangle Perforated Sheet.png", caption="Triangle Hole or Custom Shape",width=300)
-    st.write("""
-- **Materials**: S.S. (202/304), Galvanized, CR, Copper & Brass  
-- **Hole Size**: 3 mm  
-- **Width**: 36 & 48 inches  
-- **Thickness**: 20 & 22 gauge  
-""")
+    <div class="product-card">
+        <img src="Square Perforated Sheet.png" alt="Square Hole Perforated Sheet">
+        <h4>◻️ Square Hole Sheets</h4>
+        <p>
+        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+        <b>Hole Size:</b> 5, 8, 10, 12 & 25 mm<br>
+        <b>Width:</b> 12 – 48 inches<br>
+        <b>Thickness:</b> 16g – 26 gauge
+        </p>
+    </div>
+
+    <div class="product-card">
+        <img src="Oblong Perforated Sheet.jfif" alt="Oblong Hole Perforated Sheet">
+        <h4>⭘ Oblong Hole Sheets</h4>
+        <p>
+        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+        <b>Hole Size:</b> 0.45 x 5 mm<br>
+        <b>Width:</b> 12 – 50 inches<br>
+        <b>Thickness:</b> 22 & 24 gauge
+        </p>
+    </div>
+
+    <div class="product-card">
+        <img src="Triangle Perforated Sheet.png" alt="Triangle Hole or Custom Shape">
+        <h4>🔺 Triangle Hole & Custom Shapes</h4>
+        <p>
+        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+        <b>Hole Size:</b> 3 mm<br>
+        <b>Width:</b> 36 & 48 inches<br>
+        <b>Thickness:</b> 20 & 22 gauge
+        </p>
+    </div>
+
+</div>
+""", unsafe_allow_html=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
