@@ -212,7 +212,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("### Applications of Metal Perforated Sheets")
 
 # Create two columns
-col1, col2 = st.columns([1, 1])  # Adjust width ratios as needed
+col1, col2 = st.columns([2, 1])  # Adjust width ratios as needed
 
 with col1:
     st.write("""
