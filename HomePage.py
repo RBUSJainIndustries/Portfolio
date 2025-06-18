@@ -125,7 +125,11 @@ st.markdown(f"""
 
 # Inquiry Form
 st.markdown("### 📋 Product Inquiry Form")
-st.components.v1.iframe("https://forms.gle/frUcJBESz841e5Vq9", height=700)
+st.markdown("""
+    <div style='height: 700px; overflow: auto; border: 1px solid #ccc; border-radius: 8px;'>
+        <iframe src="https://forms.gle/frUcJBESz841e5Vq9" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+""", unsafe_allow_html=True)
 
 # Footer
 st.markdown("<hr>", unsafe_allow_html=True)
