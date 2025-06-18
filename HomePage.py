@@ -103,94 +103,107 @@ st.markdown(f"""
     </div>
 </div>
 """, unsafe_allow_html=True)
+import streamlit as st
 
 
+# Title
+st.markdown("### 🛠️ Our Product Range")
+
+# CSS for consistent card look
 st.markdown("""
-<style>
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-}
-.product-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 15px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-}
-.product-card:hover {
-    transform: scale(1.03);
-}
-.product-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-.product-card h4 {
-    margin-top: 0;
-    margin-bottom: 8px;
-    color: #6b3a51;
-}
-.product-card p {
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-</style>
-
-### Our Product Range
-
-<div class="product-grid">
-
-  <div class="product-card">
-    <h4>Round Hole Perforated Sheet</h4>
-    <img src="Round Perforated Sheet.png" alt="Round Hole Perforated Sheet">
-    <p>
-    <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
-    <b>Hole Size:</b> 0.5 – 25 mm<br>
-    <b>Width:</b> 12 – 60 inches<br>
-    <b>Thickness:</b> 10g – 36 gauge
-    </p>
-  </div>
-
-  <div class="product-card">
-    <h4>Square Hole Perforated Sheet</h4>
-    <img src="Square Perforated Sheet.png" alt="Square Hole Perforated Sheet">
-    <p>
-    <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
-    <b>Hole Size:</b> 5, 8, 10, 12 & 25 mm<br>
-    <b>Width:</b> 12 – 48 inches<br>
-    <b>Thickness:</b> 16g – 26 gauge
-    </p>
-  </div>
-
-  <div class="product-card">
-    <h4>Oblong Hole Perforated Sheet</h4>
-    <img src="Oblong Perforated Sheet.jfif" alt="Oblong Hole Perforated Sheet">
-    <p>
-    <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
-    <b>Hole Size:</b> 0.45 x 5 mm<br>
-    <b>Width:</b> 12 – 50 inches<br>
-    <b>Thickness:</b> 22 & 24 gauge
-    </p>
-  </div>
-
-  <div class="product-card">
-    <h4>Triangle Hole Perforated Sheet</h4>
-    <img src="Triangle Perforated Sheet.png" alt="Triangle Hole or Custom Shape">
-    <p>
-    <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
-    <b>Hole Size:</b> 3 mm<br>
-    <b>Width:</b> 36 & 48 inches<br>
-    <b>Thickness:</b> 20 & 22 gauge
-    </p>
-  </div>
-
-</div>
+    <style>
+    .product-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+        margin-bottom: 20px;
+    }
+    .product-card:hover {
+        transform: scale(1.03);
+    }
+    .product-title {
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: #6b3a51;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .product-desc {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    </style>
 """, unsafe_allow_html=True)
+
+# Columns layout (responsive with 2 or more columns depending on screen)
+cols = st.columns(2)
+
+# Product 1
+with cols[0]:
+    st.image("Round Perforated Sheet.png", use_column_width=True)
+    st.markdown("""
+    <div class="product-card">
+        <div class="product-title">🔘 Round Hole Perforated Sheet</div>
+        <div class="product-desc">
+        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+        <b>Hole Size:</b> 0.5 – 25 mm<br>
+        <b>Width:</b> 12 – 60 inches<br>
+        <b>Thickness:</b> 10g – 36 gauge
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Product 2
+with cols[1]:
+    st.image("Square Perforated Sheet.png", use_column_width=True)
+    st.markdown("""
+    <div class="product-card">
+        <div class="product-title">◻️ Square Hole Perforated Sheet</div>
+        <div class="product-desc">
+        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+        <b>Hole Size:</b> 5, 8, 10, 12 & 25 mm<br>
+        <b>Width:</b> 12 – 48 inches<br>
+        <b>Thickness:</b> 16g – 26 gauge
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Next row of columns
+cols = st.columns(2)
+
+# Product 3
+with cols[0]:
+    st.image("Oblong Perforated Sheet.jfif", use_column_width=True)
+    st.markdown("""
+    <div class="product-card">
+        <div class="product-title">⭘ Oblong Hole Perforated Sheet</div>
+        <div class="product-desc">
+        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+        <b>Hole Size:</b> 0.45 x 5 mm<br>
+        <b>Width:</b> 12 – 50 inches<br>
+        <b>Thickness:</b> 22 & 24 gauge
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Product 4
+with cols[1]:
+    st.image("Triangle Perforated Sheet.png", use_column_width=True)
+    st.markdown("""
+    <div class="product-card">
+        <div class="product-title">🔺 Triangle Hole Perforated Sheet</div>
+        <div class="product-desc">
+        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+        <b>Hole Size:</b> 3 mm<br>
+        <b>Width:</b> 36 & 48 inches<br>
+        <b>Thickness:</b> 20 & 22 gauge
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
 
 
 st.markdown("<hr>", unsafe_allow_html=True)
