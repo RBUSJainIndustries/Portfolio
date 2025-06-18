@@ -24,7 +24,7 @@ st.markdown(f"""
         .header-box {{
             background-color: {BURGUNDY};
             color: {WHITE};
-            padding: 30px 20px;
+            padding: 0px 0px;
             text-align: center;
             border-radius: 0;
         }}
@@ -70,7 +70,7 @@ st.markdown(f"""
         background-image: url("data:image/jpg;base64,{img_base64}");
         background-size: cover;
         background-position: center;
-        padding: 40px;
+        padding: 0px;
         border-radius: 10px;
         margin-bottom: 20px;
         position: relative;
@@ -89,12 +89,6 @@ st.markdown(f"""
         z-index: 2;
         font-size: 1.05rem;
     }}
-    .header-box {{
-            margin-bottom: 0px; /* Remove space below header */
-        }}
-    .about-us {{
-            margin-top: 0px;    /* Remove space above about-us section */
-        }}
     </style>
 """, unsafe_allow_html=True)
 
