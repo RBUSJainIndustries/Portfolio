@@ -175,7 +175,7 @@ with cols[1]:
 cols = st.columns(2)
 
 # Product 3
-with cols[2]:
+with cols[0]:
     st.image("Oblong Perforated Sheet.jfif", width=300)
     st.markdown("""
     <div class="product-card">
@@ -190,7 +190,7 @@ with cols[2]:
     """, unsafe_allow_html=True)
 
 # Product 4
-with cols[3]:
+with cols[1]:
     st.image("Triangle Perforated Sheet.png" , width=300)
     st.markdown("""
     <div class="product-card">
