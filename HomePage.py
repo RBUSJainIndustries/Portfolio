@@ -107,7 +107,7 @@ import streamlit as st
 
 
 # Title
-st.markdown(""" <h2 class="about-us-content">Our Product Range </h2>""" )
+st.markdown(""" <h2 class="about-us-content">Our Product Range </h2>""", unsafe_allow_html=True )
 
 # CSS for consistent card look
 st.markdown("""
