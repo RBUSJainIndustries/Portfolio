@@ -101,20 +101,30 @@ st.markdown("<hr>", unsafe_allow_html=True)
 # Applications
 st.markdown("### 🧩 Applications")
 st.write("""
-Our sheets are used across:
-- Food Processing  
-- Sugar Mills  
-- Chemical & Cement Industries  
-- Petrochemical, Construction & Architecture  
-- Automobile, Pharmaceuticals, Paper, Textile, Power Projects  
+
 """)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 # Packaging & Quality
 st.markdown("### 📦 Packaging & Quality")
 st.write("""
-At the heart of our operations lies a seamless, highly efficient manufacturing process designed to deliver metal perforated sheets that stand the test of time. With precision-engineered machinery and stringent quality controls at every stage, we ensure each sheet meets the highest standards of durability and performance.
-What sets us apart is not just the strength of our products but also the care with which they are delivered. Our double-layered packaging system safeguards each sheet against damage during transit, ensuring it reaches our customers in flawless condition—ready to perform, right out of the packet.""")
+We are engaged in offering a comprehensive range of Steel Perforated Sheets, and Woven Wire Mesh. Renowned for their reliable performance, durable finish, and high tensile strength, our products are widely used across multiple industries and sectors, including:
+
+- Food & Food Processing Units
+- Paper & Board Mills
+- Sugar Mills 
+- Automobile Industry 
+- Pharmaceuticals 
+- Power Projects 
+- Fertilizer Plants 
+- Cement Industries 
+- Chemical Industries 
+- Construction Sector 
+- Petrochemical Industry 
+- Textile Mills 
+- Architectural Applications 
+- Household Use 
+""")
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # Inquiry Form
