@@ -209,25 +209,33 @@ with cols[1]:
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # Applications
-st.markdown("### 🧩 Applications")
-st.write("""
+st.markdown("### Applications")
+
+# Create two columns
+col1, col2 = st.columns([1.5, 1])  # Adjust width ratios as needed
+
+with col1:
+    st.write("""
 We are engaged in offering a comprehensive range of Steel Perforated Sheets, and Woven Wire Mesh. Renowned for their reliable performance, durable finish, and high tensile strength, our products are widely used across multiple industries and sectors, including:
 
-- Food & Food Processing Units
-- Paper & Board Mills
-- Sugar Mills 
-- Automobile Industry 
-- Pharmaceuticals 
-- Power Projects 
-- Fertilizer Plants 
-- Cement Industries 
-- Chemical Industries 
-- Construction Sector 
-- Petrochemical Industry 
-- Textile Mills 
-- Architectural Applications 
-- Household Use 
-""")
+- Food & Food Processing Units  
+- Paper & Board Mills  
+- Sugar Mills  
+- Automobile Industry  
+- Pharmaceuticals  
+- Power Projects  
+- Fertilizer Plants  
+- Cement Industries  
+- Chemical Industries  
+- Construction Sector  
+- Petrochemical Industry  
+- Textile Mills  
+- Architectural Applications  
+- Household Use  
+    """)
+
+with col2:
+    st.image("perforated-sheet-applications.jpg", use_column_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 # Packaging & Quality
