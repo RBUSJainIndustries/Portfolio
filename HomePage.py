@@ -254,13 +254,13 @@ What sets us apart is not just the strength of our products but also the care wi
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("images/packaging1.jpg", caption="Precision Packaging", use_column_width=True)
+    st.image("Packing1.JPG", caption="Precision Packaging", use_column_width=True)
 
 with col2:
-    st.image("images/quality_check.jpg", caption="Quality Inspection", use_column_width=True)
+    st.image("Packing2.jpg", caption="Quality Inspection", use_column_width=True)
 
 with col3:
-    st.image("images/final_dispatch.jpg", caption="Ready for Dispatch", use_column_width=True)
+    st.image("Packing3.JPG", caption="Ready for Dispatch", use_column_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
