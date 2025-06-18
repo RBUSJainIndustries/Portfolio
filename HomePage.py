@@ -72,10 +72,11 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 
 # Product Range
-st.markdown("### 🛠️ Product Range")
-
 with st.expander("🔘 Round Hole Sheets"):
-    st.image("Round Perforated Sheet.png", caption="Round Hole Perforated Sheet", use_column_width=True)
+    st.markdown(
+        "<img src='Round Perforated Sheet.png' width='300' style='display:block; margin:auto;'>",
+        unsafe_allow_html=True
+    )
     st.write("""
 - **Materials**: SS (202/304), Galvanized, CR, Copper & Brass  
 - **Hole Size**: 0.5 – 25 mm  
