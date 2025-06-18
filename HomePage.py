@@ -69,10 +69,13 @@ Under the able guidance of our mentor Mr. Sandeep Jain, we have emerged as a lea
 """)
 
 st.markdown("<hr>", unsafe_allow_html=True)
-# What We Offer
+
+
+# Product Range
 st.markdown("### 🛠️ Product Range")
 
 with st.expander("🔘 Round Hole Sheets"):
+    st.image("round_hole.png", caption="Round Hole Perforated Sheet", use_column_width=True)
     st.write("""
 - **Materials**: SS (202/304), Galvanized, CR, Copper & Brass  
 - **Hole Size**: 0.5 – 25 mm  
@@ -81,6 +84,7 @@ with st.expander("🔘 Round Hole Sheets"):
 """)
 
 with st.expander("◻️ Square Hole Sheets"):
+    st.image("square_hole.png", caption="Square Hole Perforated Sheet", use_column_width=True)
     st.write("""
 - **Hole Size**: 0.45 x 5 mm  
 - **Width**: 12 – 50 inches  
@@ -88,6 +92,7 @@ with st.expander("◻️ Square Hole Sheets"):
 """)
 
 with st.expander("⭘ Oblong Hole Sheets"):
+    st.image("oblong_hole.png", caption="Oblong Hole Perforated Sheet", use_column_width=True)
     st.write("""
 - **Hole Size**: 3 mm  
 - **Width**: 36 – 48 inches  
@@ -95,7 +100,9 @@ with st.expander("⭘ Oblong Hole Sheets"):
 """)
 
 with st.expander("🔺 Triangle Hole & Other Custom Shapes"):
+    st.image("triangle_hole.png", caption="Triangle Hole or Custom Shape", use_column_width=True)
     st.write("Available on request for industrial and architectural needs.")
+
 
 st.markdown("<hr>", unsafe_allow_html=True)
 # Applications
