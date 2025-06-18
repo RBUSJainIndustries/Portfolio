@@ -240,13 +240,30 @@ with col2:
     st.image("Applications.png", use_container_width =True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
+
+
 # Packaging & Quality
 st.markdown("### 📦 Packaging & Quality")
 st.write("""
 At the heart of our operations lies a seamless, highly efficient manufacturing process designed to deliver metal perforated sheets that stand the test of time. With precision-engineered machinery and stringent quality controls at every stage, we ensure each sheet meets the highest standards of durability and performance.
+
 What sets us apart is not just the strength of our products but also the care with which they are delivered. Our double-layered packaging system safeguards each sheet against damage during transit, ensuring it reaches our customers in flawless condition—ready to perform, right out of the packet.
 """)
+
+# 3 side-by-side images
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.image("images/packaging1.jpg", caption="Precision Packaging", use_column_width=True)
+
+with col2:
+    st.image("images/quality_check.jpg", caption="Quality Inspection", use_column_width=True)
+
+with col3:
+    st.image("images/final_dispatch.jpg", caption="Ready for Dispatch", use_column_width=True)
+
 st.markdown("<hr>", unsafe_allow_html=True)
+
 
 # Inquiry Form
 st.markdown("### 📋 Product Inquiry Form")
