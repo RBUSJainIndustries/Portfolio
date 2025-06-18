@@ -212,7 +212,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("### Applications")
 
 # Create two columns
-col1, col2 = st.columns([1.5, 1])  # Adjust width ratios as needed
+col1, col2 = st.columns([1, 1.5])  # Adjust width ratios as needed
 
 with col1:
     st.write("""
@@ -235,7 +235,7 @@ We are engaged in offering a comprehensive range of Steel Perforated Sheets, and
     """)
 
 with col2:
-    st.image("Applications.png", use_column_width=True)
+    st.image("Applications.png", use_container_width =True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 # Packaging & Quality
