@@ -209,29 +209,33 @@ with cols[1]:
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # Applications
-st.markdown("### Applications")
+st.markdown("### Applications of Metal Perforated Sheets")
 
 # Create two columns
 col1, col2 = st.columns([1, 1])  # Adjust width ratios as needed
 
 with col1:
     st.write("""
-We are engaged in offering a comprehensive range of Steel Perforated Sheets, and Woven Wire Mesh. Renowned for their reliable performance, durable finish, and high tensile strength, our products are widely used across multiple industries and sectors, including:
+We are engaged in offering a comprehensive range of Steel Perforated Sheets and Woven Wire Mesh, manufactured with precision and built to endure the most demanding applications. Known for their reliable performance, durable surface finish, uniform perforation, and high tensile strength, our products cater to a wide array of industrial and commercial needs.
 
-- Food & Food Processing Units  
-- Paper & Board Mills  
-- Sugar Mills  
-- Automobile Industry  
-- Pharmaceuticals  
-- Power Projects  
-- Fertilizer Plants  
-- Cement Industries  
-- Chemical Industries  
-- Construction Sector  
-- Petrochemical Industry  
-- Textile Mills  
-- Architectural Applications  
-- Household Use  
+These products are extensively used in both heavy-duty and day-to-day applications across the following industries and sectors:
+
+- Food & Food Processing Units – for hygienic drying, sorting, and filtering processes
+- Paper & Board Mills – as filtration and drying media in pulp processing
+- Sugar Mills – for screening, crystallization, and juice filtration
+- Automobile Industry – in exhaust components, grills, and protective panels
+- Pharmaceuticals – for cleanroom partitions, ventilation, and tablet sieving
+- Power Projects – as support structures and protective covers
+- Fertilizer Plants – in granulation, screening, and material handling
+- Cement Industries – for dust separation and reinforcement purposes
+- Chemical Industries – in corrosion-resistant filtration and containment
+- Construction Sector – as cladding panels, safety grills, and decorative facades
+- Petrochemical Industry – for refining processes and containment screens
+- Textile Mills – for drying fabrics and filtration systems
+- Architectural Applications – in aesthetic facades, sunshades, and false ceilings
+- Household Use – for kitchen filters, ventilators, and protective mesh
+
+Our materials are tailored to meet both functional and aesthetic requirements, ensuring performance, safety, and design versatility across sectors.
     """)
 
 with col2:
