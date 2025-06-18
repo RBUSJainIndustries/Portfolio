@@ -105,91 +105,94 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 
-# Product Range Section
 st.markdown("### 🛠️ Product Range")
 st.markdown("""
 <style>
-.product-grid {{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-        margin-top: 20px;
-     }}
-     .product-card {{
-        background-color: #fff;
-        border: 1px solid #ddd;
-        border-radius: 12px;
-        padding: 15px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
-    }}
-    .product-card:hover {{
-        transform: scale(1.03);
-    }}
-    .product-card img {{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }}
-    .product-card h4 {{
-        margin-top: 0;
-        margin-bottom: 8px;
-        color: #6b3a51;
-    }}
-    .product-card p {{
-        font-size: 0.95rem;
-        line-height: 1.5;
-    }}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.product-card:hover {
+    transform: scale(1.03);
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.product-card h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #6b3a51;
+}
+.product-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
 </style>
 
+### 🛠️ Product Range
+
 <div class="product-grid">
-    <div class="product-card">
-        <img src="Round Perforated Sheet.png" alt="Round Hole Perforated Sheet">
-        <h4>🔘 Round Hole Sheets</h4>
-        <p>
-        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
-        <b>Hole Size:</b> 0.5 – 25 mm<br>
-        <b>Width:</b> 12 – 60 inches<br>
-        <b>Thickness:</b> 10g – 36 gauge
-        </p>
-    </div>
 
-    <div class="product-card">
-        <img src="Square Perforated Sheet.png" alt="Square Hole Perforated Sheet">
-        <h4>◻️ Square Hole Sheets</h4>
-        <p>
-        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
-        <b>Hole Size:</b> 5, 8, 10, 12 & 25 mm<br>
-        <b>Width:</b> 12 – 48 inches<br>
-        <b>Thickness:</b> 16g – 26 gauge
-        </p>
-    </div>
+  <div class="product-card">
+    <img src="Round Perforated Sheet.png" alt="Round Hole Perforated Sheet">
+    <h4>🔘 Round Hole Sheets</h4>
+    <p>
+    <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+    <b>Hole Size:</b> 0.5 – 25 mm<br>
+    <b>Width:</b> 12 – 60 inches<br>
+    <b>Thickness:</b> 10g – 36 gauge
+    </p>
+  </div>
 
-    <div class="product-card">
-        <img src="Oblong Perforated Sheet.jfif" alt="Oblong Hole Perforated Sheet">
-        <h4>⭘ Oblong Hole Sheets</h4>
-        <p>
-        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
-        <b>Hole Size:</b> 0.45 x 5 mm<br>
-        <b>Width:</b> 12 – 50 inches<br>
-        <b>Thickness:</b> 22 & 24 gauge
-        </p>
-    </div>
+  <div class="product-card">
+    <img src="Square Perforated Sheet.png" alt="Square Hole Perforated Sheet">
+    <h4>◻️ Square Hole Sheets</h4>
+    <p>
+    <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+    <b>Hole Size:</b> 5, 8, 10, 12 & 25 mm<br>
+    <b>Width:</b> 12 – 48 inches<br>
+    <b>Thickness:</b> 16g – 26 gauge
+    </p>
+  </div>
 
-    <div class="product-card">
-        <img src="Triangle Perforated Sheet.png" alt="Triangle Hole or Custom Shape">
-        <h4>🔺 Triangle Hole & Custom Shapes</h4>
-        <p>
-        <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
-        <b>Hole Size:</b> 3 mm<br>
-        <b>Width:</b> 36 & 48 inches<br>
-        <b>Thickness:</b> 20 & 22 gauge
-        </p>
-    </div>
+  <div class="product-card">
+    <img src="Oblong Perforated Sheet.jfif" alt="Oblong Hole Perforated Sheet">
+    <h4>⭘ Oblong Hole Sheets</h4>
+    <p>
+    <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+    <b>Hole Size:</b> 0.45 x 5 mm<br>
+    <b>Width:</b> 12 – 50 inches<br>
+    <b>Thickness:</b> 22 & 24 gauge
+    </p>
+  </div>
+
+  <div class="product-card">
+    <img src="Triangle Perforated Sheet.png" alt="Triangle Hole or Custom Shape">
+    <h4>🔺 Triangle Hole & Custom Shapes</h4>
+    <p>
+    <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
+    <b>Hole Size:</b> 3 mm<br>
+    <b>Width:</b> 36 & 48 inches<br>
+    <b>Thickness:</b> 20 & 22 gauge
+    </p>
+  </div>
 
 </div>
 """, unsafe_allow_html=True)
+
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
