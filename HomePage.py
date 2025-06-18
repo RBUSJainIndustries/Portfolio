@@ -72,6 +72,8 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 
 # Product Range
+st.markdown("### 🛠️ Product Range")
+
 with st.expander("🔘 Round Hole Sheets"):
     st.image("assets/Round Perforated Sheet.png", caption="Round Hole Perforated Sheet", use_column_width=True)
     st.write("""
