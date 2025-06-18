@@ -1,5 +1,12 @@
 import streamlit as st
+import base64
+import streamlit as st
 
+def get_base64_of_local_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+img_base64 = get_base64_of_local_image("about_bg.jpg")
 # Page configuration
 st.set_page_config(page_title="R. B. Umrao Singh Jain Industries", layout="wide")
 
@@ -57,16 +64,48 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # About Us
+st.markdown(f"""
+    <style>
+    .about-us {{
+        background-image: url("data:image/jpg;base64,{img_base64}");
+        background-size: cover;
+        background-position: center;
+        padding: 40px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        color: {BURGUNDY};
+    }}
+    .about-us::before {{
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: rgba(255, 255, 255, 0.75); /* faded white overlay */
+        border-radius: 10px;
+        z-index: 1;
+    }}
+    .about-us-content {{
+        position: relative;
+        z-index: 2;
+        font-size: 1.05rem;
+    }}
+    </style>
+""", unsafe_allow_html=True)
+
 st.markdown("### 🏢 About Us")
-st.write("""
-Established in the year 1992, we “R. B. Umrao Singh Jain Industries,” based at Rewari, Haryana, India, are engaged in offering a wide range of Perforated Metal Sheets - S.S. vacuum filter screen, centrifugal filter screen for sugar industries, supporting liner (Dovex Type) for centrifugal machine and Rice Polishing Jali.
+st.markdown(f"""
+<div class="about-us">
+    <div class="about-us-content">
+        Established in the year 1992, we “R. B. Umrao Singh Jain Industries,” based at Rewari, Haryana, India, are engaged in offering a wide range of Perforated Metal Sheets - S.S. vacuum filter screen, centrifugal filter screen for sugar industries, supporting liner (Dovex Type) for centrifugal machine and Rice Polishing Jali.<br><br>
 
-These products are known for their high tensile strength, durable finish and quality material. Fabricated using high quality basic material like Stainless or Carbon Steel, M.S/ G.I, Aluminum, Brass and Copper, these products find extensive applications in various Industries such as Food and Beverage Processing Units, Automobiles, Pharmaceuticals and Cement. Our Products are in different styles, while the perforations are offered in options of square, triangle, oblong, oval and round shapes also.
+        These products are known for their high tensile strength, durable finish and quality material. Fabricated using high quality basic material like Stainless or Carbon Steel, M.S/ G.I, Aluminum, Brass and Copper, these products find extensive applications in various Industries such as Food and Beverage Processing Units, Automobiles, Pharmaceuticals and Cement. Our Products are in different styles, while the perforations are offered in options of square, triangle, oblong, oval and round shapes also.<br><br>
 
-Leveraging on our modern infrastructure, excellent R&D facility and backed by proficient technical professionals, we cater to the need of various industries successfully. Quality products at cost effective prices is the prominent attribute of our organization.
+        Leveraging on our modern infrastructure, excellent R&D facility and backed by proficient technical professionals, we cater to the need of various industries successfully. Quality products at cost effective prices is the prominent attribute of our organization.<br><br>
 
-Under the able guidance of our mentor Mr. Sandeep Jain, we have emerged as a leading player in this segment. His sharp business acumen and leadership qualities have helped us to establish a wide network of clients located across different parts of India.
-""")
+        Under the able guidance of our mentor Mr. Sandeep Jain, we have emerged as a leading player in this segment. His sharp business acumen and leadership qualities have helped us to establish a wide network of clients located across different parts of India.
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
