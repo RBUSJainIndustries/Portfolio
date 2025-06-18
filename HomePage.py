@@ -143,7 +143,7 @@ cols = st.columns(2)
 
 # Product 1
 with cols[0]:
-    st.image("Round Perforated Sheet.png", width=300)
+    st.image("Round Perforated Sheet.png", use_column_width=True)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">🔘 Round Hole Perforated Sheet</div>
