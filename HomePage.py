@@ -72,13 +72,11 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 
 # Product Range
+# Product Range
 st.markdown("### 🛠️ Product Range")
 
 with st.expander("🔘 Round Hole Sheets"):
-    st.markdown(
-        "<img src='Round Perforated Sheet.png' width='300' style='display:block; margin:auto;'>",
-        unsafe_allow_html=True
-    )
+    st.image("Round Perforated sheet.png", caption="Round Hole Perforated Sheet", width=300)
     st.write("""
 - **Materials**: SS (202/304), Galvanized, CR, Copper & Brass  
 - **Hole Size**: 0.5 – 25 mm  
@@ -87,10 +85,7 @@ with st.expander("🔘 Round Hole Sheets"):
 """)
 
 with st.expander("◻️ Square Hole Sheets"):
-    st.markdown(
-        "<img src='Square Perfoarted Sheet.png' width='300' style='display:block; margin:auto;'>",
-        unsafe_allow_html=True
-    )
+    st.image("Square Perforated Sheet.png", caption="Square Hole Perforated Sheet", width=300)
     st.write("""
 - **Hole Size**: 0.45 x 5 mm  
 - **Width**: 12 – 50 inches  
@@ -98,10 +93,7 @@ with st.expander("◻️ Square Hole Sheets"):
 """)
 
 with st.expander("⭘ Oblong Hole Sheets"):
-    st.markdown(
-        "<img src='Oblong Perfoarted Sheet.jfif' width='300' style='display:block; margin:auto;'>",
-        unsafe_allow_html=True
-    )
+    st.image("Oblong Perforated Sheet.jfif", caption="Oblong Hole Perforated Sheet", width=300)
     st.write("""
 - **Hole Size**: 3 mm  
 - **Width**: 36 – 48 inches  
@@ -109,11 +101,9 @@ with st.expander("⭘ Oblong Hole Sheets"):
 """)
 
 with st.expander("🔺 Triangle Hole & Other Custom Shapes"):
-    st.markdown(
-        "<img src='Triangle Perforated Sheet.png' width='300' style='display:block; margin:auto;'>",
-        unsafe_allow_html=True
-    )
+    st.image("Triangle Perforated Sheet.png", caption="Triangle Hole or Custom Shape",width=300)
     st.write("Available on request for industrial and architectural needs.")
+
 st.markdown("<hr>", unsafe_allow_html=True)
 
 
