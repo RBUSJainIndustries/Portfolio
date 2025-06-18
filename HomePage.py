@@ -124,7 +124,6 @@ st.markdown("""
         <iframe src="https://forms.gle/frUcJBESz841e5Vq9" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 """, unsafe_allow_html=True)
-st.markdown("<hr>", unsafe_allow_html=True)
 
 # Contact Info
 st.markdown("### 📞 Contact Us")
