@@ -33,13 +33,13 @@ st.markdown(f"<p style='text-align: center; color: #555;'>Precision Engineered. 
 # About Us
 st.markdown("### 🏢 About Us")
 st.write("""
-Established in **1992**, we are a trusted manufacturer of **Perforated Metal Sheets** including vacuum filter screens, centrifugal filter screens, supporting liners (Dovex Type), and Rice Polishing Jali.
+Established in the year 1992, we “R. B. Umrao Singh Jain Industries,” based at Rewari, Haryana, India, are engaged in offering a wide range of Perforated Metal Sheets - S.S. vacuum filter screen, centrifugal filter screen for sugar industries, supporting liner (Dovex Type) for centrifugal machine and Rice Polishing Jali.
 
-Our products are made from high-grade materials such as Stainless Steel, Carbon Steel, M.S/G.I, Brass, Copper, and Aluminum. With modern infrastructure, an R&D-backed process, and an expert team, we serve industries like:
+These products are known for their high tensile strength, durable finish and quality material. Fabricated using high quality basic material like Stainless or Carbon Steel, M.S/ G.I, Aluminum, Brass and Copper, these products find extensive applications in various Industries such as Food and Beverage Processing Units, Automobiles, Pharmaceuticals and Cement. Our Products are in different styles, while the perforations are offered in options of square, triangle, oblong, oval and round shapes also.
+ 
+Leveraging on our modern infrastructure, excellent R&D facility and backed by proficient technical professionals, we cater to the need of various industries successfully. Quality products at cost effective prices is the prominent attribute of our organization.
 
-- Food & Beverage Processing
-- Sugar, Cement & Power Plants
-- Automobile, Pharmaceuticals, Fertilizer, and more
+Under the able guidance of our mentor Mr. Sandeep Jain, we have emerged as a leading player in this segment. His sharp business acumen and leadership qualities have helped us to establish a wide network of clients located across different parts of India.
 """)
 
 # What We Offer
