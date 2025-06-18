@@ -52,38 +52,6 @@ st.markdown(f"""
             font-size: 0.9em;
             padding: 30px 0;
         }}
-      .product-grid {{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-        margin-top: 20px;
-     }}
-     .product-card {{
-        background-color: #fff;
-        border: 1px solid #ddd;
-        border-radius: 12px;
-        padding: 15px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
-    }}
-    .product-card:hover {{
-        transform: scale(1.03);
-    }}
-    .product-card img {{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }}
-    .product-card h4 {{
-        margin-top: 0;
-        margin-bottom: 8px;
-        color: #6b3a51;
-    }}
-    .product-card p {{
-        font-size: 0.95rem;
-        line-height: 1.5;
-    }}
     </style>
 """, unsafe_allow_html=True)
 
@@ -140,8 +108,42 @@ st.markdown(f"""
 # Product Range Section
 st.markdown("### 🛠️ Product Range")
 st.markdown("""
-<div class="product-grid">
+<style>
+.product-grid {{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+     }}
+     .product-card {{
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }}
+    .product-card:hover {{
+        transform: scale(1.03);
+    }}
+    .product-card img {{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }}
+    .product-card h4 {{
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: #6b3a51;
+    }}
+    .product-card p {{
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }}
+</style>
 
+<div class="product-grid">
     <div class="product-card">
         <img src="Round Perforated Sheet.png" alt="Round Hole Perforated Sheet">
         <h4>🔘 Round Hole Sheets</h4>
