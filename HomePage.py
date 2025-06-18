@@ -234,9 +234,7 @@ These products are extensively used in both heavy-duty and day-to-day applicatio
 - Textile Mills – for drying fabrics and filtration systems
 - Architectural Applications – in aesthetic facades, sunshades, and false ceilings
 - Household Use – for kitchen filters, ventilators, and protective mesh
-
-Our materials are tailored to meet both functional and aesthetic requirements, ensuring performance, safety, and design versatility across sectors.
-    """)
+""")
 
 with col2:
     st.image("Applications.png", use_container_width =True)
