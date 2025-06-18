@@ -141,7 +141,7 @@ st.markdown("""
 }
 </style>
 
-### 🛠️ Product Range
+### Our Product Range
 
 <div class="product-grid">
 
