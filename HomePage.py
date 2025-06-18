@@ -147,7 +147,7 @@ st.markdown("""
 
   <div class="product-card">
     <h4>Round Hole Perforated Sheet</h4>
-    <img src="https://github.com/RBUSJainIndustries/Portfolio/blob/main/Round%20Perforated%20Sheet.png" alt="Round Hole Perforated Sheet">
+    <img src="Round Perforated Sheet.png" alt="Round Hole Perforated Sheet">
     <p>
     <b>Materials:</b> S.S. (202/304), Galvanized, CR, Copper & Brass<br>
     <b>Hole Size:</b> 0.5 – 25 mm<br>
