@@ -262,8 +262,6 @@ with col2:
 with col3:
     st.image("Packing3.JPG", caption="Quality Inspection", use_container_width =True)
 
-st.markdown("<hr>", unsafe_allow_html=True)
-
 
 # Inquiry Form
 st.markdown("### 📋 Product Inquiry Form")
