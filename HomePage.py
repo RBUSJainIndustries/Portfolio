@@ -89,6 +89,12 @@ st.markdown(f"""
         z-index: 2;
         font-size: 1.05rem;
     }}
+    .header-box {{
+            margin-bottom: 0px; /* Remove space below header */
+        }}
+    .about-us {{
+            margin-top: 0px;    /* Remove space above about-us section */
+        }}
     </style>
 """, unsafe_allow_html=True)
 
@@ -106,8 +112,6 @@ st.markdown(f"""
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
-
-# Product Range
 # Product Range
 st.markdown("### 🛠️ Product Range")
 
