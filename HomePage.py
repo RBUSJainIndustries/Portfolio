@@ -110,8 +110,8 @@ Our sheets are used across:
 # Packaging & Quality
 st.markdown("### 📦 Packaging & Quality")
 st.write("""
-We use **double-layered packaging** to prevent transit damage and maintain sheet integrity. Our manufacturing process is ISO-grade with strict quality control at every stage.
-""")
+At the heart of our operations lies a seamless, highly efficient manufacturing process designed to deliver metal perforated sheets that stand the test of time. With precision-engineered machinery and stringent quality controls at every stage, we ensure each sheet meets the highest standards of durability and performance.
+What sets us apart is not just the strength of our products but also the care with which they are delivered. Our double-layered packaging system safeguards each sheet against damage during transit, ensuring it reaches our customers in flawless condition—ready to perform, right out of the packet.""")
 
 # Contact Info
 st.markdown("### 📞 Contact Us")
