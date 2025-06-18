@@ -115,6 +115,7 @@ st.markdown("### 📦 Packaging & Quality")
 st.write("""
 At the heart of our operations lies a seamless, highly efficient manufacturing process designed to deliver metal perforated sheets that stand the test of time. With precision-engineered machinery and stringent quality controls at every stage, we ensure each sheet meets the highest standards of durability and performance.
 What sets us apart is not just the strength of our products but also the care with which they are delivered. Our double-layered packaging system safeguards each sheet against damage during transit, ensuring it reaches our customers in flawless condition—ready to perform, right out of the packet.""")
+st.markdown("<hr>", unsafe_allow_html=True)
 
 # Inquiry Form
 st.markdown("### 📋 Product Inquiry Form")
@@ -123,6 +124,7 @@ st.markdown("""
         <iframe src="https://forms.gle/frUcJBESz841e5Vq9" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 """, unsafe_allow_html=True)
+st.markdown("<hr>", unsafe_allow_html=True)
 
 # Contact Info
 st.markdown("### 📞 Contact Us")
