@@ -68,6 +68,7 @@ Leveraging on our modern infrastructure, excellent R&D facility and backed by pr
 Under the able guidance of our mentor Mr. Sandeep Jain, we have emerged as a leading player in this segment. His sharp business acumen and leadership qualities have helped us to establish a wide network of clients located across different parts of India.
 """)
 
+st.markdown("<hr>", unsafe_allow_html=True)
 # What We Offer
 st.markdown("### 🛠️ Product Range")
 
@@ -96,6 +97,7 @@ with st.expander("⭘ Oblong Hole Sheets"):
 with st.expander("🔺 Triangle Hole & Other Custom Shapes"):
     st.write("Available on request for industrial and architectural needs.")
 
+st.markdown("<hr>", unsafe_allow_html=True)
 # Applications
 st.markdown("### 🧩 Applications")
 st.write("""
@@ -107,6 +109,7 @@ Our sheets are used across:
 - Automobile, Pharmaceuticals, Paper, Textile, Power Projects  
 """)
 
+st.markdown("<hr>", unsafe_allow_html=True)
 # Packaging & Quality
 st.markdown("### 📦 Packaging & Quality")
 st.write("""
