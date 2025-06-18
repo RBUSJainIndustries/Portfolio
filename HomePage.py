@@ -107,7 +107,7 @@ import streamlit as st
 
 
 # Title
-st.markdown("### 🛠️ Our Product Range")
+st.markdown("### Our Product Range")
 
 # CSS for consistent card look
 st.markdown("""
