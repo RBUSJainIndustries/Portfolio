@@ -24,7 +24,7 @@ st.markdown(f"""
         .header-box {{
             background-color: {BURGUNDY};
             color: {WHITE};
-            padding: 0px 0px;
+            padding: 30px 20px;
             text-align: center;
             border-radius: 0;
         }}
@@ -70,7 +70,7 @@ st.markdown(f"""
         background-image: url("data:image/jpg;base64,{img_base64}");
         background-size: cover;
         background-position: center;
-        padding: 0px;
+        padding: 40px;
         border-radius: 10px;
         margin-bottom: 20px;
         position: relative;
