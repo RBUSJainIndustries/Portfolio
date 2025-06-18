@@ -8,7 +8,7 @@ st.markdown("""
     <div style="text-align: center; font-family: sans-serif;">
         <h2 style="color: #5c3c4a;">R. B. Umrao Singh Jain Industries</h2>
         <p style="letter-spacing: 2px; color: #555;">PREMIUM METAL PERFORATED SHEETS</p>
-        <img src="https://drive.google.com/uc?export=view&id=1JSMiGgrowOIhfY1Dbl-2FYG5H1L9koUs" alt="Flyer Banner" style="width: 100%; max-width: 600px; border-radius: 10px;">
+        <img src="https://drive.google.com/uc?export=view&id=1i57pct0D-obf14bW_VEjIU-MkgTZ5iaR" alt="Flyer Banner" style="width: 100%; max-width: 600px; border-radius: 10px;">
     </div>
 """, unsafe_allow_html=True)
 
