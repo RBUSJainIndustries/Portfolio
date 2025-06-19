@@ -113,7 +113,8 @@ st.markdown(""" <h2 style="color: {BURGUNDY};" class="about-us-content">Our Prod
 st.markdown("""
     <style>
     .product-card {
-        background-color: #fff;
+        background-color: #ffffff !important;
+        color: #000000 !important;
         border: 1px solid #ddd;
         border-radius: 12px;
         padding: 15px;
@@ -127,13 +128,14 @@ st.markdown("""
     .product-title {
         margin-top: 0;
         margin-bottom: 8px;
-        color: #6b3a51;
+        color: #6b3a51 !important;
         font-size: 18px;
         font-weight: bold;
     }
     .product-desc {
         font-size: 0.95rem;
         line-height: 1.5;
+        color: #000000 !important;
     }
     </style>
 """, unsafe_allow_html=True)
