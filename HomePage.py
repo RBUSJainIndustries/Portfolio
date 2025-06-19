@@ -59,7 +59,8 @@ st.markdown(f"""
 st.markdown(f"""
 <div class="header-box">
     <h2>R. B. Umrao Singh Jain Industries</h2>
-    <p>PREMIUM METAL PERFORATED SHEETS. Since 1992</p>
+    <p>PREMIUM METAL PERFORATED SHEETS</p>
+    <p>Since 1992</p>
 </div>
 """, unsafe_allow_html=True)
 
