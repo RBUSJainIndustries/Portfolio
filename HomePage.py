@@ -10,7 +10,7 @@ img_base64 = get_base64_of_local_image("about_bg.JPG")
 # Page configuration
 st.set_page_config(page_title="R. B. Umrao Singh Jain Industries", layout="wide")
 st.markdown("""
-    <meta name="google-site-verification" content="google256837f5bf4b38e0" />
+   <meta name="google-site-verification" content="22DxuuHYlYP4qGSDyGrT2RkDHrZEl2cNhn9Q-6gt-cI" />
 """, unsafe_allow_html=True)
 
 
