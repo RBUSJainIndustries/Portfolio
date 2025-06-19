@@ -10,6 +10,15 @@ img_base64 = get_base64_of_local_image("about_bg.JPG")
 # Page configuration
 st.set_page_config(page_title="R. B. Umrao Singh Jain Industries", layout="wide")
 
+st.markdown("""
+    <meta name="title" content="Metal Perforated Sheets Manufacturer | R.B. Umrao Singh Jain Industries">
+    <meta name="description" content="Premium manufacturer of stainless steel, galvanized, copper, and brass metal perforated sheets in India. Serving Sugar, Pharma, and Cement industries.">
+    <meta name="keywords" content="metal perforated sheets, stainless perforated sheet, round hole sheet, square perforation, sheet metal manufacturer India">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourcustomdomain.com" />
+""", unsafe_allow_html=True)
+
+
 # Custom colors
 BURGUNDY = "#6b3a51"
 CREAM = "#e8e4da"
