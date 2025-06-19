@@ -143,7 +143,7 @@ cols = st.columns(2)
 
 # Product 1
 with cols[0]:
-    st.image("Round PS.png", use_container_width=True)
+    st.image("images/Round PS.png", use_container_width=True)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">🔘 Round Hole Perforated Sheet</div>
@@ -158,7 +158,7 @@ with cols[0]:
 
 # Product 2
 with cols[1]:
-    st.image("Square PS.png", use_container_width=True)
+    st.image("images/Square PS.png", use_container_width=True)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">◻️ Square Hole Perforated Sheet</div>
@@ -176,7 +176,7 @@ cols = st.columns(2)
 
 # Product 3
 with cols[0]:
-    st.image("Oblong PSS.jpg", use_container_width=True)
+    st.image("images/Oblong PSS.jpg", use_container_width=True)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">⭘ Oblong Hole Perforated Sheet</div>
@@ -191,7 +191,7 @@ with cols[0]:
 
 # Product 4
 with cols[1]:
-    st.image("Triangle PS.png" , use_container_width=True)
+    st.image("images/Triangle PS.png" , use_container_width=True)
     st.markdown("""
     <div class="product-card">
         <div class="product-title">🔺 Triangle Hole Perforated Sheet</div>
