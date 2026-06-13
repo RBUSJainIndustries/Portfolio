@@ -105,6 +105,25 @@ st.markdown(f"""
     </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+div.stDownloadButton > button {
+    background-color: #6b3a51;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+}
+
+div.stDownloadButton > button:hover {
+    background-color: #5a3044;
+    color: white;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.markdown(f"""
 <div class="about-us">
 <h2 class="about-us-content">About Us</h2>
@@ -116,6 +135,19 @@ st.markdown(f"""
     </div>
 </div>
 """, unsafe_allow_html=True)
+
+# PDF Download Button
+
+with open("Company_Brochure.pdf", "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
+
+st.download_button(
+    label="📥 Download Company Brochure",
+    data=PDFbyte,
+    file_name="R_B_Umrao_Singh_Jain_Industries_Brochure.pdf",
+    mime="application/pdf"
+)
+
 import streamlit as st
 
 
