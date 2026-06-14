@@ -73,7 +73,7 @@ st.markdown(f"""
 <div class="header-box">
     <h2>R. B. Umrao Singh Jain Industries</h2>
     <p>PREMIUM METAL PERFORATED SHEETS - SINCE 1992 </p>
-    <p>📞 +91 9416063658 | ✉️ rbusindustry@gmail.com</p>
+    <p>📞 +91 9416063658   |   ✉️ rbusindustry@gmail.com</p>
 </div>
 """, unsafe_allow_html=True)
 
