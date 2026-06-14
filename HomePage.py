@@ -73,8 +73,15 @@ st.markdown(f"""
 <div class="header-box">
     <h2>R. B. Umrao Singh Jain Industries</h2>
     <p>PREMIUM METAL PERFORATED SHEETS - SINCE 1992 </p>
+    <div style="
+    background-color:#6b3a51;
+    color:white;
+    padding:10px;
+    text-align:center;
+    font-size:17px;
+    font-weight:bold;">
+    📞 +91 9416063658 | ✉️ rbusindustry@gmail.com
 </div>
-""", unsafe_allow_html=True)
 
 # About Us
 st.markdown(f"""
@@ -122,19 +129,6 @@ div.stDownloadButton > button:hover {
     color: white;
 }
 </style>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div style="
-    background-color:#6b3a51;
-    color:white;
-    padding:10px;
-    text-align:center;
-    font-size:17px;
-    font-weight:bold;
-">
-    📞 +91 9416063658 | ✉️ rbusindustry@gmail.com
-</div>
 """, unsafe_allow_html=True)
 
 st.markdown(f"""
