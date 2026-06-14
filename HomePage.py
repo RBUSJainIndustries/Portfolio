@@ -68,6 +68,19 @@ st.markdown(f"""
     </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<div style="
+    background-color:#6b3a51;
+    color:white;
+    padding:10px;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+">
+    📞 +91 9416063658 | ✉️ rbusindustry@gmail.com
+</div>
+""", unsafe_allow_html=True)
+
 # Header section with background
 st.markdown(f"""
 <div class="header-box">
